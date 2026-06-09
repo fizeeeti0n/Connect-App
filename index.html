@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="description" content="Connect — Where Underrated Creators Get Discovered. The creator discovery platform that helps emerging creators land brand collaborations."/>
+<meta name="keywords" content="creator discovery, influencer marketing, brand collaborations, micro influencers, Bangladesh creators"/>
+<meta property="og:title" content="Connect — Where Underrated Creators Get Discovered"/>
+<meta property="og:description" content="Connect helps emerging creators land brand collaborations through smart discovery, creator profiles, and secure campaign management."/>
+<meta property="og:type" content="website"/>
+<title>Connect — Where Underrated Creators Get Discovered</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav id="navbar">
+  <div class="nav-inner">
+    <a href="#" class="logo">
+      <div class="logo-icon">C</div>
+      <span class="logo-text">Connect</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#features">Features</a></li>
+      <li><a href="#how">How it Works</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a href="#waitlist" class="btn btn-ghost" style="display:none" id="navSignin">Sign in</a>
+      <button class="hamburger" id="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#features" onclick="closeMobile()">Features</a>
+  <a href="#how" onclick="closeMobile()">How it Works</a>
+
+</div>
+
+<!-- HERO -->
+<section id="hero">
+  <div style="position:absolute;inset:0;overflow:hidden;pointer-events:none">
+    <div class="blob" style="width:600px;height:600px;background:radial-gradient(#7C3AED,transparent 70%);top:-200px;left:-100px"></div>
+    <div class="blob" style="width:500px;height:500px;background:radial-gradient(#EC4899,transparent 70%);top:100px;right:-150px"></div>
+    <div class="blob" style="width:400px;height:400px;background:radial-gradient(#3B82F6,transparent 70%);bottom:0;left:30%"></div>
+    <div style="position:absolute;inset:0;background:radial-gradient(ellipse 80% 60% at 50% -20%,rgba(124,58,237,0.15),transparent)"></div>
+  </div>
+  <div class="container" style="display:flex;align-items:center;gap:64px;position:relative;z-index:2;width:100%">
+    <div class="hero-content">
+      <div class="hero-badge fade-in">
+        <span class="hero-badge-dot"></span>
+        Now accepting early access applications
+      </div>
+      <h1 class="hero-title syne fade-in fade-in-delay-1">
+        Where <span class="grad-text">Underrated</span> Creators Get Discovered.
+      </h1>
+      <p class="hero-sub fade-in fade-in-delay-2">Connect helps emerging creators land brand collaborations through smart discovery, verified profiles, and secure campaign management.</p>
+      <div class="hero-cta fade-in fade-in-delay-3">
+        <a href="#features" class="btn btn-grad btn-lg">Features✦</a>
+        <a href="#how" class="btn btn-outline btn-lg">See How It Works</a>
+      </div>
+    </div>
+
+</section>
+
+<div class="glow-divider"></div>
+
+<!-- PROBLEM -->
+<section id="problem" style="overflow:hidden">
+  <div style="position:absolute;inset:0;overflow:hidden;pointer-events:none">
+    <div class="blob" style="width:400px;height:400px;background:radial-gradient(#7C3AED,transparent 70%);bottom:0;right:0;opacity:.2"></div>
+  </div>
+  <div class="container">
+    <div style="max-width:700px">
+      <span class="section-label fade-in">The Problem</span>
+      <h2 class="section-title fade-in fade-in-delay-1">Talent is <span class="grad-text">everywhere.</span> Opportunity isn't.</h2>
+      <p class="section-sub fade-in fade-in-delay-2">The creator economy is broken. Small creators with loyal, engaged audiences stay invisible — while brands waste budgets on overpriced influencers with fake followers.</p>
+    </div>
+    <div class="problem-grid">
+      <div class="problem-card fade-in fade-in-delay-1">
+        <div class="problem-accent" style="background:var(--purple)"></div>
+        <div class="problem-icon">😞</div>
+        <div class="problem-title">Creators are invisible</div>
+        <p class="problem-text">Thousands of talented creators post consistently, grow genuine audiences, and pour their heart into content — yet never get a single brand inquiry. The algorithm buries them before brands ever see them.</p>
+      </div>
+      <div class="problem-card fade-in fade-in-delay-2">
+        <div class="problem-accent" style="background:var(--pink)"></div>
+        <div class="problem-icon">💸</div>
+        <div class="problem-title">Brands can't find authentic voices</div>
+        <p class="problem-text">Brands overspend on mega-influencers with disengaged followers. Micro-creators with 5–100K audiences often deliver 3× higher engagement — but brands have no reliable way to find them.</p>
+      </div>
+      <div class="problem-card fade-in fade-in-delay-1">
+        <div class="problem-accent" style="background:var(--blue)"></div>
+        <div class="problem-icon">🔒</div>
+        <div class="problem-title">Payments are a nightmare</div>
+        <p class="problem-text">Creators get ghosted after completing campaigns. Brands get burned by undelivered content. There's no secure, trust-building layer between creators and brands. Until now.</p>
+      </div>
+      <div class="problem-card fade-in fade-in-delay-2">
+        <div class="problem-accent" style="background:var(--orange)"></div>
+        <div class="problem-icon">📊</div>
+        <div class="problem-title">No data, no proof of value</div>
+        <p class="problem-text">Creators can't prove their impact. Brands can't measure ROI easily. The whole ecosystem runs on DMs and spreadsheets. There's no professional infrastructure for creator-brand relationships at this scale.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="glow-divider"></div>
+
+<!-- FEATURES -->
+<section id="features">
+  <div class="container">
+    <div style="text-align:center;max-width:700px;margin:0 auto">
+      <span class="section-label fade-in">What We've Built</span>
+      <h2 class="section-title fade-in fade-in-delay-1">Everything creators and brands <span class="grad-text">actually need</span></h2>
+      <p class="section-sub fade-in fade-in-delay-2" style="margin:0 auto">Not another influencer marketplace. A complete creator collaboration infrastructure.</p>
+    </div>
+    <div class="features-grid">
+      <div class="feature-card fade-in fade-in-delay-1"><div class="feature-icon">🎯</div><div class="feature-title">Budget-Based Matching</div><p class="feature-text">Set your campaign budget and instantly see creators who fit. From ৳5K micro-campaigns to ৳500K full launches — every budget gets matched with the right talent.</p></div>
+      <div class="feature-card fade-in fade-in-delay-2"><div class="feature-icon">🔐</div><div class="feature-title">Secure Escrow Payments</div><p class="feature-text">Funds are held securely until milestones are delivered. Creators get paid on time. Brands get what they paid for. No more ghosting, no more disputes.</p></div>
+      <div class="feature-card fade-in"><div class="feature-icon">✨</div><div class="feature-title">Creator Portfolios</div><p class="feature-text">Beautiful, data-rich creator profiles showcasing past work, audience insights, engagement rates, content categories, and pricing — all in one shareable link.</p></div>
+      <div class="feature-card fade-in fade-in-delay-1"><div class="feature-icon">📈</div><div class="feature-title">Campaign Dashboard</div><p class="feature-text">Real-time tracking for both sides. Creators manage deliverables. Brands track performance. Analytics, timelines, communication — all in one clean workspace.</p></div>
+      <div class="feature-card fade-in fade-in-delay-2"><div class="feature-icon">🤝</div><div class="feature-title">Brand Collaboration Tools</div><p class="feature-text">Brief templates, creative guidelines, feedback tools, and revision workflows designed for seamless brand-creator collaboration from first contact to final delivery.</p></div>
+      <div class="feature-card fade-in"><div class="feature-icon">✅</div><div class="feature-title">Verified Creator Profiles</div><p class="feature-text">Every creator on Connect is verified. We check follower authenticity, engagement quality, and content history so brands can trust every match they see.</p></div>
+    </div>
+  </div>
+</section>
+
+<div class="glow-divider"></div>
+
+
+
+<div class="glow-divider"></div>
+
+<!-- HOW IT WORKS -->
+<section id="how">
+  <div class="container">
+    <div style="text-align:center;max-width:600px;margin:0 auto">
+      <span class="section-label fade-in">How It Works</span>
+      <h2 class="section-title fade-in fade-in-delay-1">From overlooked to <span class="grad-text">in-demand</span> in three steps</h2>
+    </div>
+    <div class="steps">
+      <div class="step fade-in"><div class="step-num">1</div><div class="step-title">Creators build profiles</div><p class="step-text">Sign up, connect your social accounts, and build a stunning portfolio. Your engagement rate, audience demographics, and content highlights are showcased automatically.</p></div>
+      <div class="step fade-in fade-in-delay-1"><div class="step-num">2</div><div class="step-title">Brands discover creators</div><p class="step-text">Brands search by niche, budget, engagement rate, and audience location. Our AI surfaces the best fits. No cold outreach — just perfect matches, instantly.</p></div>
+      <div class="step fade-in fade-in-delay-2"><div class="step-num">3</div><div class="step-title">Collaborate securely</div><p class="step-text">Campaign briefs, contracts, content delivery, and payments all happen inside Connect. Milestone-based escrow ensures everyone gets exactly what they agreed to.</p></div>
+    </div>
+  </div>
+</section>
+
+<div class="glow-divider"></div>
+
+
+
+<div class="glow-divider"></div>
+
+<!-- WAITLIST -->
+<!-- . <section id="waitlist" style="position:relative;overflow:hidden">
+  <div style="position:absolute;inset:0;background:radial-gradient(ellipse 100% 80% at 50% 100%,rgba(124,58,237,0.2),transparent);pointer-events:none"></div>
+  <div style="position:absolute;inset:0;background:radial-gradient(ellipse 60% 50% at 50% 0%,rgba(236,72,153,0.1),transparent);pointer-events:none"></div>
+  <div class="container">
+    <div class="waitlist-inner">
+      <span class="section-label fade-in" style="display:block;text-align:center">Get Early Access</span>
+      <h2 class="section-title fade-in fade-in-delay-1" style="text-align:center;font-size:clamp(36px,5vw,60px)">Your audience deserves <span class="grad-text">opportunities.</span></h2>
+      <p style="font-size:17px;color:var(--muted);line-height:1.7;margin:0 auto 32px;text-align:center;max-width:520px" class="fade-in fade-in-delay-2">You've put in the work. You've grown the audience. You've created the content. Now it's time for brands to finally find you.</p>
+      <div class="toggle-group fade-in" id="toggleGroup">
+        <button class="toggle-btn active" onclick="setToggle('creator',this)">I'm a Creator</button>
+        <button class="toggle-btn" onclick="setToggle('brand',this)">I'm a Brand</button>
+      </div>
+      <div class="waitlist-form fade-in fade-in-delay-1" id="waitlistForm">
+        <input type="email" class="waitlist-input" id="emailInput" placeholder="Enter your email address"/>
+        <button class="btn btn-grad btn-lg" onclick="handleJoin()">Join Waitlist ✦</button>
+      </div>
+      <p class="waitlist-note fade-in">No spam, ever. Be the first to know when we launch. 🔒</p>
+      <div id="successMsg">
+        <div style="font-size:32px;margin-bottom:12px">🎉</div>
+        <div style="font-family:'Syne',sans-serif;font-weight:700;font-size:22px;margin-bottom:8px">You're on the list!</div>
+        <div style="font-size:15px;color:var(--muted)">We'll reach out as soon as Connect launches. Share with a creator friend and move up the waitlist!</div>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="#" class="logo" style="margin-bottom:12px; display:inline-flex; align-items:center; text-decoration:none;">
+             <img src="pic/cont.png" alt="Logo" style="height:30px; width:auto;">
+             <span class="logo-text" style="margin-left:10px">Connect</span>
+        </a>
+        <p>Where underrated creators finally get discovered. Connecting emerging talent with brands that care about authentic storytelling.</p>
+        <p style="font-size:13px;color:var(--subtle);margin-top:8px">📧 ascendstu@gmail.com</p>
+      </div>
+      <div class="footer-links">
+        <h4>Product</h4>
+        <ul>
+          <li><a href="#features">Features</a></li>
+          
+          <li><a href="#how">How It Works</a></li>
+          
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Press Kit</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Cookie Policy</a></li>
+          <li><a href="#">Creator Agreement</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-copy">© 2025 Connect. All rights reserved. </div>
+      
+    </div>
+  </div>
+</footer>
+
+<script src="script.js">
+
+</script>
+</body>
+</html>
